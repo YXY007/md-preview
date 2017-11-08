@@ -98,8 +98,8 @@ nohup sh s_user2.sh > s_user2.out 2>&1 &
 
 |用户|基表名|表大小(GB)|索引大小(GB)|
 |-|-|-|-|
-|SO1|INS_OFFER|10|5|
-|SO2|INS_ACCREL|25|10|
+|user1|INS_OFFER|10|5|
+|user2|INS_ACCREL|25|10|
 |...|...|...|...|
 
 ##	导出导入对象
@@ -147,7 +147,7 @@ tail -f /adbdata/ora2pg/log/crm_user1_ins.log
 ###	导入对象
 导出的sql文件可以直接通过psql端执行，如下：
 ```
-psql -p 5432 -d crm -u so1 -f /adbdata/ora2pg/ddl/crm_user1_ins.sql
+psql -p 5432 -d crm -u user1 -f /adbdata/ora2pg/ddl/crm_user1_ins.sql
 ```
 
 ### 对象稽核
@@ -418,7 +418,7 @@ ora2pg_background
 
 ##### 执行导出操作
 ```shell
-sh ora2pg_export.sh /adbdata/ora2pg/conf/crm_user1_data.conf so1 ord_user_ext_f_210_201612 /adbdata/ora2pg/log 3
+sh ora2pg_export.sh /adbdata/ora2pg/conf/crm_user1_data.conf user1 ord_user_ext_f_210_201612 /adbdata/ora2pg/log 3
 
 ```
 #####	查看导出日志
@@ -819,7 +819,7 @@ tableowner=$1
 tablelike=$2
 filedir=$3
 #psqlconn="psql -d $dbname -U $tableowner -q -t -p $port"
-psqlconn="psql -d $dbname -U so1 -q -t -p $port -h 10.11.123.123"
+psqlconn="psql -d $dbname -U user1 -q -t -p $port -h 10.11.123.123"
 selectsql="select tablename from pg_tables where 1=1 and tableowner='$tableowner' and tablename like '$tablelike%'"
 #selectsql="select tablename
 #from t_ora2adb_tableinfo
