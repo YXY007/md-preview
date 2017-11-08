@@ -297,8 +297,10 @@ psql -d adb -h 192.168.111.138 -p 5432 -U cmbase -f /home/adb/oracle/cmbase_stru
 ### 下载链接
 Ora2pg最新工具下载链接URL
 [https://github.com/ADBSQL/adb-ora2pg](https://github.com/ADBSQL/adb-ora2pg)
+
 oracle精简客户端工具下载链接URL
 http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html    
+
 安装ora2pg工具必备的系统软件包下载链接URL
 http://search.cpan.org/~mstrout/YAML-0.84/lib/YAML.pm    
 http://search.cpan.org/~timb/DBI-1.634/DBI.pm    
@@ -307,6 +309,7 @@ http://search.cpan.org/~pythian/DBD-Oracle-1.74/
 ###	参考链接
 Ora2pg工具安装配置使用说明链接URL：
 http://ora2pg.darold.net/documentation.html    
+
 http://blog.csdn.net/kiwi_kid/article/details/50846593    
 
 
