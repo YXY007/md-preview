@@ -308,8 +308,7 @@ http://search.cpan.org/~pythian/DBD-Oracle-1.74/
 
 ###	参考链接
 Ora2pg工具安装配置使用说明链接URL：    
-http://ora2pg.darold.net/documentation.html    
-
+http://ora2pg.darold.net/documentation.html     
 http://blog.csdn.net/kiwi_kid/article/details/50846593    
 
 
