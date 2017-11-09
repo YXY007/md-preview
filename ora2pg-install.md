@@ -7,7 +7,7 @@
 
 ## 产品简介
 #### 官方说明 
-Ora2pg数据导出导入工具是perl语音编写的免费工具，可以用于将数据从oracle侧迁移至adbql数据库兼容的模式。
+Ora2pg数据导出导入工具是perl语言编写的免费工具，可以用于将数据从oracle侧迁移至adbql数据库兼容的模式。
 Ora2pg可以从oracle侧抽取结构或数据，组装成sql脚本的形式，加载到adbql数据库。
 
 Ora2Pg is a free tool used to migrate an Oracle database to a adbQL compatible schema. It connects your Oracle database, scan it automaticaly and extracts its structure or data, it then generates SQL scripts that you can load into adbQL.
