@@ -46,7 +46,7 @@ yum -y remove java java-x.x.x-openjdk-x.x.x.x-x.x.bxx.exx.xxx
 ```
 #### 安装JDK(这里以安装JDK1.7为例，JDK1.7以上的版本都是可用的)
 下载地址：（JDK1.7）
-[http://www.oracle.com/technetwork/indexes/downloads/index.html](http://www.oracle.com/technetwork/indexes/downloads/index.html)
+[http://www.oracle.com/technetwork/indexes/downloads/index.html](http://www.oracle.com/technetwork/indexes/downloads/index.html)    
 放在/usr/local/src下执行以下安装命令：
 ```
 rpm -ivh jdk-7u79-linux-x64.rpm
