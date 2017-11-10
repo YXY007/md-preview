@@ -209,6 +209,7 @@ tcp6       0      0 :::8080                 :::*                    LISTEN
 http://192.168.111.141:8080/adbops
 输入默认用户和密码(adbmonitor/admin)
 成功则返回如下信息界面：
+![adbops](https://user-images.githubusercontent.com/1564335/32649416-89f765c8-c5bf-11e7-864d-b2ae1c30c671.png)
 
 
 
