@@ -75,7 +75,7 @@ source /etc/profile
 #### 安装TOMCAT
 安装TOMCAT
 下载地址：(TOMCAT7.0)
-[http://mirror.bit.edu.cn/apache/tomcat/](http://mirror.bit.edu.cn/apache/tomcat/)
+[http://mirror.bit.edu.cn/apache/tomcat/](http://mirror.bit.edu.cn/apache/tomcat/)    
 放在adbops安装用户的根目录下，执行以下安装命令：
 ```
 $ tar -zxvf apache-tomcat-7.0.77.tar.gz
