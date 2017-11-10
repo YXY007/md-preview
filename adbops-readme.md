@@ -91,12 +91,10 @@ export CATALINA_HOME=/home/adb/tomcat/
 --配置catalina监听端口以tcp协议启动，而非tcp6协议
 ```
 JAVA_OPTS="$JAVA_OPTS -Dorg.apache.catalina.security.SecurityListener.UMASK=`umask`"
-
 ```
 --配置catalina虚拟内存参数
 ```
 JAVA_OPTS="-Xms256m -Xmx512m"
-
 ```
 ### 安装配置ADBOPS portal
 #### 	安装ADBOPS portal
@@ -208,7 +206,7 @@ netstat -an|grep 8080
 tcp6       0      0 :::8080                 :::*                    LISTEN
 ```
 打开浏览器(建议使用chrome或firefox)访问adbops portal
-http://192.168.111.141:8080/ adbops
+http://192.168.111.141:8080/adbops
 输入默认用户和密码(adbmonitor/admin)
 成功则返回如下信息界面：
 
@@ -246,7 +244,6 @@ alter job usage_for_adb (status = false);
 alter job tps_for_adb (status = false);
 alter job slowlog_for_adb (status = false);
 alter job mon_coord (status = false);
-
 ```
 #### 删除任务
 ```
