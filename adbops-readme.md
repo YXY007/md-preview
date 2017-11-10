@@ -172,11 +172,11 @@ postgres=# create extension pg_stat_statements;
 > shared_preload_libraries的参数，需要查看该参数原来的值是否为空，如果为空，则可以直接设置，如果不为空，则需要将pg_stat_statements追加到参数值中，比如：shared_preload_libraries='xxx,pg_stat_statements'.
 
 登录adbmgr，查看coordinator的shared_preload_libraries参数值：
-```
+```sql
 show coord1 shared_preload_libraries;
 ```
 登录adbmgr，修改coordinator的如下配置：
-```
+```sql
 set coordinator all (shared_preload_libraries='pg_stat_statements');
 set coordinator all (pg_stat_statements.max=100);
 set coordinator all (pg_stat_statements.track=all);
