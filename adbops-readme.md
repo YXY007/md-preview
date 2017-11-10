@@ -17,7 +17,7 @@ ADBOPS支持用户配置动态监控ADB集群及主机资源信息， launcher�
 |TOMCAT|7.0以上|
 |adbops.war|部署在TOMCAT之上|
 
-在adbmgr、adb集群均正常运行的提前下，安装部署adbmonitor。
+在adbmgr、adb集群均正常运行的提前下，安装部署adbops。
 ##	安装配置JDK和TOMCAT
 ### 安装配置JDK
 #### 查看Linux自带的JDK是否已安装
