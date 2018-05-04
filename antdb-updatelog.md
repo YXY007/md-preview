@@ -1,7 +1,7 @@
 ### AntDB 更新日志：
 ------
 
-##### 2018-04-15：
+#### 2018-04-15：
 
 * AntDB 3.1
     -  功能优化
@@ -11,7 +11,7 @@
     	- 修正因 MakeExecNodesByOids 给 en_relid 赋值导致后续的 GetRemoteNodeList 获取节点列表异常的问题
     	- 修正save_oid_class函数没有判断表是否为临时表,导致load_oid_class函数还原时找不到表信息的问题
     	
-##### 2018-03-09：
+#### 2018-03-09：
 * AntDB 3.1
 	- 新增功能
 		- 添加 Cluster Barrier 功能 	
